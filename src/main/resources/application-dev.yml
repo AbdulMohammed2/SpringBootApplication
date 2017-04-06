@@ -1,0 +1,33 @@
+my:
+  pojo:
+    name: suboortest
+  mapProp:
+    key1: mapValue1
+    key2: mapValue2
+iassconfig:
+  getaccess:
+    loginlocation: http://citr1ganode1.hmrc.gov.uk:50002/auth/
+    logoutlocation: http://citr1ganode1.hmrc.gov.uk:50002/auth/Logout
+    gatewaypaamname: UserPassword
+    hiddenuri: http://citr1ganode1.hmrc.gov.uk:50002/GetAccess/ResourceList
+    role-separator-char: '0'
+    rolecategory: hmrc
+    session-cookie-name: HMRC_SESSION_ID
+    gausername: SecurityUser
+    gauserpassword: zse45rfv
+    gaurl: http://citr1ganode1.hmrc.gov.uk:50002
+    smslocation: http://citr1ganode1.hmrc.gov.uk:50002/GASMSSessionsWebApp/GASMSSessionsServletMax
+    smsfrequency-millisec: 3000
+  settings:
+    gwservicesgarolesmappings:
+      HMCE-ATWD-ORG='hmrc.HMCE0ATWD0ORG00': null
+      HMCE-DDES='hmrc.HMCE0DDES00': null
+  oneSettings:
+    gwservicesgarolesmappings: HMCE-DDES:hmrc.HMCE0DDES00, HMCE-DDES:hmrc.HMCE0DDES00
+  mysettings:
+    myInfo:
+      HMCE-DDES: hmrc.HMCE0DDES00
+      HMCE-DDES1: hmrc.HMCE0DDES00
+    yourInfo:
+      HMCE-DDES: hmrc.HMCE0DDES00
+      HMCE-DDES1: hmrc.HMCE0DDES00
